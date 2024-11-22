@@ -1,2 +1,2 @@
 # ChatGPT-Assistant-Browser-Extension
-ChatGPT Assistant is a powerful browser extension that seamlessly integrates ChatGPT into your daily browsing experience.
+ChatGPT Assistant is a powerful browser extension that seamlessly integrates ChatGPT into your daily browsing experience. ChatGPT Assistant is a powerful browser extension that seamlessly integrates ChatGPT into your daily browsing experience. Access ChatGPT directly from context menus, the omnibar, and other browser interfaces, making it easier than ever to leverage AI assistance.
