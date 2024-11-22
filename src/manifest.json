@@ -1,0 +1,69 @@
+{
+  "manifest_version": 3,
+  "name": "ChatGPT Assistant - Use AI Everywhere",
+  "description": "Use ChatGPT in search engines, to write emails, and on any website",
+  "version": "0.15.0",
+  "action": {
+    "default_popup": "popup/index.html",
+    "default_icon": {
+      "16": "assets/images/16.png",
+      "32": "assets/images/16.png",
+      "48": "assets/images/48.png",
+      "128": "assets/images/128.png"
+    },
+    "default_title": "ChatGPT Assistant"
+  },
+  "icons": {
+    "16": "assets/images/16.png",
+    "32": "assets/images/16.png",
+    "48": "assets/images/48.png",
+    "128": "assets/images/128.png"
+  },
+  "background": {
+    "service_worker": "background/index.ts",
+    "type": "module"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "windows": "Ctrl+Shift+K",
+        "mac": "MacCtrl+Shift+K",
+        "chromeos": "Ctrl+Shift+K",
+        "linux": "Ctrl+Shift+K"
+      }
+    }
+  },
+  "host_permissions": ["https://*.openai.com/"],
+  "permissions": ["alarms", "activeTab", "storage", "tabs", "contextMenus"],
+  "options_ui": {
+    "page": "options/index.html",
+    "open_in_tab": true
+  },
+  "omnibox": {
+    "keyword": "gpt"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.google.com/*",
+        "https://*.bing.com/*",
+        "https://search.brave.com/*",
+        "https://*.duckduckgo.com/*",
+        "https://*.ecosia.org/*",
+        "https://*.presearch.com/*",
+        "https://chat.openai.com/*"
+      ],
+      "js": ["content-script/index.ts"]
+    },
+    {
+      "matches": ["https://msfrisbie.github.io/*"],
+      "css": ["styles/content-script.scss"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["assets/*"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
