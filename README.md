@@ -23,3 +23,12 @@ ChatGPT Assistant is a powerful browser extension that seamlessly integrates Cha
 Install the extension directly from the Chrome Web Store or Edge Add-ons Store:
 ChatGPT Assistant on Chrome Web Store
 
+## ⚙️ Local Installation
+1. Download the latest release from the Releases Page.
+2. Unzip the downloaded file.
+3. Open your browser's extensions page:
+- For Chrome: Go to chrome://extensions
+- For Edge: Go to edge://extensions
+4. Enable Developer Mode.
+5. Drag and drop the unzipped folder onto the extensions page.
+6. Enjoy using the ChatGPT Assistant extension!
