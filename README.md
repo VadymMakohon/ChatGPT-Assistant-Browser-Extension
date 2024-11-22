@@ -17,3 +17,9 @@ ChatGPT Assistant is a powerful browser extension that seamlessly integrates Cha
 ### 🌐 Search Engine Integration
 - Automatically send search engine queries (e.g., Google, Bing) as prompts to ChatGPT.
 - Get AI-powered answers alongside traditional search results.
+
+## Installation
+🛠 Install from Chrome Web Store
+Install the extension directly from the Chrome Web Store or Edge Add-ons Store:
+ChatGPT Assistant on Chrome Web Store
+
