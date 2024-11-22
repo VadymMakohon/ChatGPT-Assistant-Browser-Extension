@@ -1,6 +1,26 @@
 # ChatGPT-Assistant-Browser-Extension
 ChatGPT Assistant is a powerful browser extension that seamlessly integrates ChatGPT into your daily browsing experience. ChatGPT Assistant is a powerful browser extension that seamlessly integrates ChatGPT into your daily browsing experience. Access ChatGPT directly from context menus, the omnibar, and other browser interfaces, making it easier than ever to leverage AI assistance.
 
+|   <img src="static/popup.png" alt="Popup" width="500"/>    |
+| :--------------------------------------------------------: |
+| _Quickly access ChatGPT with the Ctrl + Shift + K command_ |
+
+|           <img src="static/omnibox.png" alt="Popup" width="500"/>            |
+| :--------------------------------------------------------------------------: |
+| _Type "gpt" + space in the omnibox to send ChatGPT prompts from the omnibox_ |
+
+| <img src="static/contextmenu.png" alt="Context Menu" width="500"/> |
+| :----------------------------------------------------------------: |
+|    _Select text and right click to send it as a ChatGPT prompt_    |
+
+| <img src="static/email.png" alt="Google" width="500"/> |
+| :----------------------------------------------------: |
+|      _Use ChatGPT to compose and reply to email_       |
+
+| <img src="static/google.png" alt="Options" width="500"/> |
+| :------------------------------------------------------: |
+|  _Automatically send search engine queries as prompts_   |
+
 ## Features
 ### 📋 Right-Click Context Menu
 - Highlight text anywhere in your browser, right-click, and instantly send it to ChatGPT as a prompt.
